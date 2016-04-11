@@ -9,10 +9,12 @@ gem 'jquery-rails'
 gem 'pg'
 gem 'puma'
 gem "rack-timeout"
-gem 'sass-rails',   '~> 5.0'
 gem 'turbolinks'
 gem 'uglifier',     '>= 1.3.0'
 gem 'sdoc',         '~> 0.4.0', group: :doc
+
+gem 'bootstrap-sass'
+gem 'sass-rails',   '~> 5.0'
 
 gem 'solidus'
 gem 'solidus_auth_devise'
