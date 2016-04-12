@@ -8,7 +8,7 @@ gem 'jbuilder',     '~> 2.0'
 gem 'jquery-rails'
 gem 'pg'
 gem 'puma'
-gem "rack-timeout"
+gem 'rack-timeout'
 gem 'turbolinks'
 gem 'uglifier',     '>= 1.3.0'
 gem 'sdoc',         '~> 0.4.0', group: :doc
