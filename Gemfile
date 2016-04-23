@@ -15,8 +15,8 @@ gem 'rack-timeout'
 gem 'turbolinks'
 gem 'sdoc',         '~> 0.4.0', group: :doc
 
-gem 'bootstrap-sass'
-gem 'sass-rails',   '~> 5.0'
+gem 'bootstrap-sass',  '3.3.6'
+gem 'sass-rails',     '>= 3.2'
 
 gem 'solidus'
 gem 'solidus_auth_devise'
