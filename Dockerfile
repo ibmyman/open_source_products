@@ -1,4 +1,8 @@
 FROM ruby:2.2.0
+
+ENV DATABASE_NAME postgres
+ENV DATABASE_USERNAME postgres
+
 RUN apt-get update -qq && apt-get install -y build-essential libpq-dev postgresql-client vim nodejs
 RUN mkdir /open_source
 WORKDIR /open_source

@@ -23,8 +23,8 @@ default: &default
 
 development:
   <<: *default
-  database: postgres
-  username: postgres
+  database: <%= ENV['DATABASE_NAME'] || open_source_development %>
+  username: <%= ENV['DATABASE_USERNAME'] || jordan %>
   host: db
 
   # The specified database role being used to connect to postgres.
