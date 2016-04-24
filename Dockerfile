@@ -1,4 +1,4 @@
-FROM ruby:2.2.0
+FROM ruby:2.2.2
 
 ENV DATABASE_NAME postgres
 ENV DATABASE_USERNAME postgres
