@@ -25,7 +25,6 @@ development:
   <<: *default
   database: <%= ENV['DATABASE_NAME'] || 'open_source_development' %>
   username: <%= ENV['DATABASE_USERNAME'] || 'jordan' %>
-  host: db
 
   # The specified database role being used to connect to postgres.
   # To create additional roles in postgres see `$ createuser --help`.
