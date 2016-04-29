@@ -15,10 +15,9 @@
 .navbar-default {
   border-color: #FFFFFF;
   .navbar-nav {
+    text-align: center;
     li {
-      a {
-
-      }
+      display: inline-block;
     }
   }
 }
