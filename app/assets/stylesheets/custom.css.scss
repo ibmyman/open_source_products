@@ -1,3 +1,5 @@
+
+
 .jumbotron {
   max-width: 1000px;
   margin-left: auto;
@@ -9,3 +11,31 @@
     margin-right: auto;
   }
 }
+
+.navbar-default {
+  border-color: #FFFFFF;
+  .navbar-nav {
+    li {
+      a {
+
+      }
+    }
+  }
+}
+
+.nav-center {
+  float: none;
+  display: inline-block;
+  left: 0;
+  right: 0;
+  text-align: center;
+  width: 70%;
+  li {
+    a{
+      display:inline;
+      float:none;
+      line-height: 40px;
+    }
+  }
+}
+
