@@ -16,4 +16,4 @@
 /config/local_env*.yml
 *.sw*
 
-*config/database.yml
+
