@@ -12,29 +12,21 @@
   }
 }
 
-.navbar-default {
-  border-color: #FFFFFF;
-  .navbar-nav {
-    text-align: center;
-    li {
-      display: inline-block;
-    }
-  }
+.navbar-collapse {
+  text-align: center;
+}
+
+ul.nav.navbar-nav {
+  display: inline-block;
+}
+
+
+
+figure#logo {
+  padding-top: 10px;
+  text-align: center;
 }
 
 .nav-center {
-  float: none;
-  display: inline-block;
-  left: 0;
-  right: 0;
-  text-align: center;
-  width: 70%;
-  li {
-    a{
-      display:inline;
-      float:none;
-      line-height: 40px;
-    }
-  }
-}
 
+}

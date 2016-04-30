@@ -4,9 +4,8 @@
   <%#= render :partial => 'spree/shared/main_nav_bar' if store_menu? %>
 </header>-->
 
-
-<nav class="navbar navbar-default navbar-static-top navbar">
-  <div class="container-fluid">
+<div class="navbar navbar-default navbar-static-top">
+  <div class="container">
     <!-- Brand and toggle get grouped for better mobile display -->
     <div class="navbar-header">
       <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
@@ -16,9 +15,12 @@
         <span class="icon-bar"></span>
       </button>
     </div>
-
+    
     <!-- Collect the nav links, forms, and other content for toggling -->
     <div class="container">
+
+      <figure id="logo" class="navbar-center" data-hook><%= logo img_options: { class: 'img_responsive', width: '200' } %></figure>
+
       <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
         <ul class="nav navbar-nav">
           <% @taxonomies.to_a.each do |taxonomy| %>
@@ -31,11 +33,7 @@
           <% end %>
         </ul>
       </div><!-- /.navbar-collapse -->
-      <ul>
-        <li class="nav navbar-nav">
-          <figure id="logo" class="columns six" data-hook><%= logo img_options: { class: 'img_responsive', width: '138' } %></figure>
-        </li>
-      </ul>
+
     </div>
   </div><!-- /.container-fluid -->
-</nav>
+</div>
