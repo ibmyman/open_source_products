@@ -24,11 +24,11 @@
       <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
         <ul class="nav navbar-nav">
           <% @taxonomies.to_a.each do |taxonomy| %>
-            <li class='dropdown'>
-              <%= link_to '#', data: { toggle: 'dropdown' }, 'aria-haspopup' => 'true' do %>
-                <%=  taxonomy.name %> <span class='caret'></span>
-              <% end %>
-              <%= nav_tree(taxonomy.root, @taxon, 1) %>
+                  <li class='dropdown'>
+                    <%= link_to '#', data: { toggle: 'dropdown' }, 'aria-haspopup' => 'true' do %>
+                        <%=  taxonomy.name %> <span class='caret'></span>
+                    <% end %>
+                    <%= nav_tree(taxonomy.root, @taxon, 1) %>
             </li>
           <% end %>
           <li class='dropdown'>
