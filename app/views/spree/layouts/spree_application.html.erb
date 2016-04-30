@@ -8,9 +8,13 @@
   <%= render :partial => 'spree/shared/head' %>
 </head>
 
-  <%= render :partial => 'spree/shared/header' %>
 
-<body class="container-fluid" test id="<%= @body_id || 'default' %>" data-hook="body">
+
+<body class="" test id="<%= @body_id || 'default' %>" data-hook="body">
+
+        <%= render :partial => 'spree/shared/header' %>
+
+  <div class="container-fluid">
 
     <div id="wrapper" class="row" data-hook>
 
@@ -23,12 +27,14 @@
         <%= yield %>
       </div>
 
-      <%= yield :templates %>
+        <%= yield :templates %>
 
-    </div>
+  </div>
 
     <%= render :partial => 'spree/shared/footer' %>
 
     <%= render :partial => 'spree/shared/google_analytics' %>
+
+  </div>
 </body>
 </html>
